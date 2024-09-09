@@ -68,7 +68,7 @@
         <br>
 
         <bdo dir = "rtl" style = "font-size:150%">Иван</bdo>
-        <br>
+
 
         <footer>
             <!-- Горизонтальная линия -->
