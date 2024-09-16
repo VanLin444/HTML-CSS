@@ -149,6 +149,28 @@
 
         </table>
         
+        <ul style="list-style-type:square">
+            <li>Какаши</li>
+            <li>Наруто</li>
+            <li>Саске</li>
+            <li>Сакура</li>
+        </ul>
+
+        <ol>
+            <li>Сэнджу Хаширама</li>
+            <li>Тобирама Сэнджу</li>
+            <li>Сарутоби Хирузен</li>
+            <li>Намиказе Минато</li>
+        </ol>
+
+        <h1 class="important">Breaking News:</h1>
+        <p class="news">Эта страница работает!</p>
+
+        <iframe src="https://pomodoro-tracker.com/" height="600" width="1200" name="fr1"></iframe>
+        <br>
+        <h2><a href="https://blimb.su/" target="fr1">Blimb</a></h2>
+        <h2><a href="https://pomodoro-tracker.com/" target="fr1">Pomodoro</a></h2>
+
         <footer>
             <!-- Горизонтальная линия -->
             <hr>

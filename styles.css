@@ -23,3 +23,15 @@ th {
 tr:hover {
     color:white;
 }
+
+.important {
+    background-color: #ca5f5f;
+    color:#eee;
+    padding: 10px;
+}
+
+.news {
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
