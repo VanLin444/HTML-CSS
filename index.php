@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html lang = "ru-RU">
     <head>
         <title>HTML</title>
         <link rel="stylesheet" href = "styles.css">
@@ -176,7 +176,7 @@
         <h2><a href="https://blimb.su/" target="fr1">Blimb</a></h2>
         <h2><a href="https://pomodoro-tracker.com/" target="fr1">Pomodoro</a></h2>
         
-
+        <!--Javascript с HTML-->
         <p id="test" style="color:yellowgreen; background-color:fuchsia; display:inline">Я знаю где ты живёшь!</p>
         <script>
             function changeColor(){
