@@ -175,7 +175,16 @@
         <br>
         <h2><a href="https://blimb.su/" target="fr1">Blimb</a></h2>
         <h2><a href="https://pomodoro-tracker.com/" target="fr1">Pomodoro</a></h2>
+        
 
+        <p id="test" style="color:yellowgreen; background-color:fuchsia; display:inline">Я знаю где ты живёшь!</p>
+        <script>
+            function changeColor(){
+                document.getElementById("test").style.color="red";
+                document.getElementById("test").style.backgroundColor="black";
+            }
+        </script>
+        <button type="button" onclick="changeColor()">CHANGE</button>
         <footer>
             <!-- Горизонтальная линия -->
             <hr>
