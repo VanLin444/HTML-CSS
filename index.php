@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html lang = "ru-RU">
     <head>
         <title>HTML</title>
@@ -16,7 +17,7 @@
         <!-- <br> Новая строка-->
         <br>
         <!-- Определяет гиперссылку -->
-        <a href = "https://github.com/VanLin444">Мой GitHub</a>
+        <a href = "https://github.com/VanLin444" target="_blank">Мой GitHub</a>
         <br>
         <!-- Предварительно отфарматированный текст(Текст сохранияет все пробелы абзацы и т.д) -->
         <pre style="font-size:200%; color:brown; font-family:Arial, Helvetica, sans-serif">
@@ -184,12 +185,51 @@
                 document.getElementById("test").style.backgroundColor="black";
             }
         </script>
-        <button type="button" onclick="changeColor()">CHANGE</button>
+        <button type="button" onclick="changeColor()">CHANGE</button><br>
+        
+        <form action="test.html" target="_blank"method="get" autocomplete="on">
+            <fieldset>
+                <legend>Authorization</legend>
+                <label for="login">Login</label><br>
+                <input type="text" name="login" id="login"><br>
+                <label for="password">Password</label><br>
+                <input type="text" name="password" id="password"><br>
+                <input type="submit" value="Sign in">
+            </fieldset>
+        </form>
+        <br>
+        
+
+        <select id="race" name="race">
+            <option value="human">Человек</option>
+            <option value="orc">Орк</option>
+            <option value="elf">Эльф</option>
+            <option value="dworf">Гном</option>
+        </select>
+        <br>
+        <script>
+            function trans() {
+                document.getElementById("comment").value += document.getElementById("race").value;
+            }
+        </script>
+        <button type="button" onclick='trans()'>SELECT</button>
+        <br>
+        <textarea id="comment" name="comment" style="width: 400px; height: 100px;"></textarea>
+        <br>
+        
+        <input list="hobby" name="hobby" oninput="res.value = document.getElementById('hobby').value"></input>
+        <datalist id="hobby">
+            <option value="travel">
+            <option value="program">
+            <option value="listen to music">
+            <option value="book reading">
+        </datalist>
+        <output name="res" for="hobby"></output>
         <footer>
             <!-- Горизонтальная линия -->
             <hr>
             <!-- Параграф -->
-            <p>© 2024 Моя учебная веб-страница</p>
+            <p>&copy 2024 Моя учебная веб-страница</p>
         </footer>
     </body>
 </html>
