@@ -193,7 +193,7 @@
                 <label for="login">Login</label><br>
                 <input type="text" name="login" id="login"><br>
                 <label for="password">Password</label><br>
-                <input type="text" name="password" id="password"><br>
+                <input type="password" name="password" id="password"><br>
                 <input type="submit" value="Sign in">
             </fieldset>
         </form>
@@ -217,14 +217,16 @@
         <textarea id="comment" name="comment" style="width: 400px; height: 100px;"></textarea>
         <br>
         
-        <input list="hobby" name="hobby" oninput="res.value = document.getElementById('hobby').value"></input>
-        <datalist id="hobby">
-            <option value="travel">
-            <option value="program">
-            <option value="listen to music">
-            <option value="book reading">
-        </datalist>
-        <output name="res" for="hobby"></output>
+        <form oninput="res.value ='Good!!!'">
+            <input  list="hobbyl" name="hobbyi" id="hobbyi" ></input>
+            <datalist id="hobbyl">
+                <option value="travel">
+                <option value="program">
+                <option value="listen to music">
+                <option value="book reading">
+            </datalist>
+            <output name="res" for="hobbyi"></output>
+        </form>
         <footer>
             <!-- Горизонтальная линия -->
             <hr>
