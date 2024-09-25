@@ -187,7 +187,8 @@
         </script>
         <button type="button" onclick="changeColor()">CHANGE</button><br>
         
-        <form action="test.html" target="_blank"method="get" autocomplete="on">
+        <!--Создаём форму с вводом логина и пароля с отправкой данных с методом post на test.html-->
+        <form action="test.html" target="_blank" method="get" autocomplete="on">
             <fieldset>
                 <legend>Authorization</legend>
                 <label for="login">Login</label><br>
