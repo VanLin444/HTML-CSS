@@ -3,8 +3,8 @@
 <html lang = "ru-RU">
     <head>
         <title>HTML</title>
-        <link rel="stylesheet" href = "styles.css">
-        <link rel="icon" type="image/x-icon" href="iconka.png">
+        <link rel="stylesheet" href = "/styles/styles.css">
+        <link rel="icon" type="image/x-icon" href="/img/iconka.png">
     </head>
     <body>
         <!-- Заголовок с атрибутом style(исп-ся для добавления стилей к элементу)
@@ -13,7 +13,7 @@
         <h1 id="start" style = "text-align:center; font-size:250%; color:orange; font-family:Verdana">HTML</h2>
         <h2>HTML - это язык разметки, а не язык программирования!!</h2>
         <!-- Изображение из источника с алтьтернативой вывода, если изображение не загрузилось-->
-        <img src= "logo_html.png" alt = "HTML logo">  
+        <img src= "/img/logo_html.png" alt = "HTML logo">  
         <!-- <br> Новая строка-->
         <br>
         <!-- Определяет гиперссылку -->
@@ -187,7 +187,10 @@
         </script>
         <button type="button" onclick="changeColor()">CHANGE</button><br>
         
-        <!--Создаём форму с вводом логина и пароля с отправкой данных с методом post на test.html-->
+        <!--
+        Создаём форму с вводом логина и пароля с отправкой данных с методом post на test.html 
+        и группируем элементы формы с помощью fieldset
+        -->
         <form action="test.html" target="_blank" method="get" autocomplete="on">
             <fieldset>
                 <legend>Authorization</legend>
@@ -200,7 +203,7 @@
         </form>
         <br>
         
-
+        <!--Раскрывающийся список-->
         <select id="race" name="race">
             <option value="human">Человек</option>
             <option value="orc">Орк</option>
@@ -215,9 +218,10 @@
         </script>
         <button type="button" onclick='trans()'>SELECT</button>
         <br>
+        <!--Многострочное поле ввода-->
         <textarea id="comment" name="comment" style="width: 400px; height: 100px;"></textarea>
         <br>
-        
+        <!--Список предопределённых параметров с результатом выбора output-->
         <form oninput="res.value ='Good!!!'">
             <input  list="hobbyl" name="hobbyi" id="hobbyi" ></input>
             <datalist id="hobbyl">
