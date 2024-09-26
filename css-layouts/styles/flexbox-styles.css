@@ -41,7 +41,12 @@
 
 ul {
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 @media all and (min-width:  800px){
