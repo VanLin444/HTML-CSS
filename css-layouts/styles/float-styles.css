@@ -29,3 +29,20 @@ p {
     float: left;
 }
 
+.pblock {
+    width: 33%;
+    height: 150px;
+    float: left;
+    background:burlywood;
+    border: 3px solid darkred;
+    box-sizing:border-box;
+    margin:3px;
+}
+
+@media (max-width: 1919px) {
+    .pblock, p{
+      width: 100%;
+      height: auto;
+    }
+  }
+
