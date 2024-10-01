@@ -59,11 +59,23 @@ p {
     font-size:80%;
 }
 
-.test {
+.info {
     grid-column-start:1; /*С какого столбца начинается ячейка*/
     grid-column-end:4; /*На каком столбце заканчивается ячейка*/
     grid-row-start: 1; /*С какой строки начинается ясчейка*/
     grid-row-end: 3; /*На какой строке заканчивается ячейка*/
     /*Соращённая версия: grid-column:1/3;*/
     grid-template-columns: auto auto auto; /*Определяет количество столбцов/строк в сетке*/
+}
+
+@media (max-width: 960px) {
+    .grid-container {
+        grid-template-areas:
+        'header header header header header header'
+        'menu menu menu menu menu menu'
+        'main main main main main main'
+        'aside aside aside aside aside aside'
+        'footer footer footer footer footer footer';
+    }
+    
 }
