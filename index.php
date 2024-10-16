@@ -10,7 +10,7 @@
         <!-- Заголовок с атрибутом style(исп-ся для добавления стилей к элементу)
          Атрибуты используются для предоставления дополнительной информации об элементах HTML.
          -->
-        <h1 id="start" style = "text-align:center; font-size:250%; color:orange; font-family:Verdana">HTML</h2>
+        <h1 id="start" style = "text-align:center; font-size:250%; color:orange; font-family:Verdana">HTML</h1>
         <h2>HTML - это язык разметки, а не язык программирования!!</h2>
         <!-- Изображение из источника с алтьтернативой вывода, если изображение не загрузилось-->
         <img src= "/img/logo_html.png" alt = "HTML logo">  
